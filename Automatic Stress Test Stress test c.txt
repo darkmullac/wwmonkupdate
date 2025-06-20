@@ -1,0 +1,765 @@
+Automatic Stress Test: Stress test completed; no issues found.
+
+WARNING: There are unresolved Warnings related to this priority. Please review before exporting.
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:2 : storm_earth_and_fire ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:1375: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (2x)] Unable to compile 'fight_style.dungeonroute' - [string "return fight_style.dungeonroute"]:1: attempt to index global 'fight_style' (a nil value) (pcall-b)
+From: fight_style.dungeonroute & buff.invokers_delight.remains > 15 & ( active_enemies > 2 | ! talent.ordered_elements.enabled | cooldown.rising_sun_kick.remains )
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:2 : storm_earth_and_fire ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[-- Windwalker:cooldowns:2
+return safebool( fight_style.dungeonroute and buff.invokers_delight.remains>15 and (active_enemies>2 or not (talent.ordered_elements.enabled) or safebool(cooldown.rising_sun_kick.remains)) )]:2: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1392: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:2 : storm_earth_and_fire ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1224: in function <Interface/AddOns/Hekili/Scripts.lua:1213>
+[Interface/AddOns/Hekili/Scripts.lua]:1398: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Error in Windwalker:cooldowns:2 conditions:
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:3 : tiger_palm ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:990: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:1375: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (2x)] Unable to compile 'fight_style.dungeonroute' - [string "return fight_style.dungeonroute"]:1: attempt to index global 'fight_style' (a nil value) (pcall-b)
+From: ( target.time_to_die > 14 & ! fight_style.dungeonroute | target.time_to_die > 22 ) & ! cooldown.invoke_xuen_the_white_tiger.remains & ( chi < 5 & ! talent.ordered_elements.enabled | chi < 3 ) & ( combo_strike | ! talent.hit_combo.enabled )
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:3 : tiger_palm ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return (target.time_to_die>14 and not (fight_style.dungeonroute) or target.time_to_die>22)]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:1375: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (2x)] Unable to compile '(target.time_to_die>14&!fight_style.dungeonroute|target.time_to_die>22)' - [string "return (target.time_to_die>14 and not (figh..."]:1: attempt to index global 'fight_style' (a nil value) (pcall-b)
+From: ( target.time_to_die > 14 & ! fight_style.dungeonroute | target.time_to_die > 22 ) & ! cooldown.invoke_xuen_the_white_tiger.remains & ( chi < 5 & ! talent.ordered_elements.enabled | chi < 3 ) & ( combo_strike | ! talent.hit_combo.enabled )
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:3 : tiger_palm ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[-- Windwalker:cooldowns:3
+return safebool( (target.time_to_die>14 and not (fight_style.dungeonroute) or target.time_to_die>22) and not (safebool(cooldown.invoke_xuen_the_white_tiger.remains)) and (chi.current<5 and not (talent.ordered_elements.enabled) or chi.current<3) and (combo_strike or not (talent.hit_combo.enabled)) )]:2: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1392: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:3 : tiger_palm ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1224: in function <Interface/AddOns/Hekili/Scripts.lua:1213>
+[Interface/AddOns/Hekili/Scripts.lua]:1398: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:3 : tiger_palm ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:990: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:768: in function 'BuildRecheck'
+[Interface/AddOns/Hekili/Scripts.lua]:1433: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (2x)] Unable to compile 'fight_style.dungeonroute' - [string "return fight_style.dungeonroute"]:1: attempt to index global 'fight_style' (a nil value) (pcall-b)
+From: (target.time_to_die>14&!fight_style.dungeonroute|target.time_to_die>22)&!cooldown.invoke_xuen_the_white_tiger.remains&(chi<5&!talent.ordered_elements.enabled|chi<3)&(combo_strike|!talent.hit_combo.enabled)
+<No message provided>
+
+[20:57:28 (1x)] Error in Windwalker:cooldowns:3 conditions:
+<No message provided>
+
+[20:57:28 (2x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:4 : invoke_xuen_the_white_tiger ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonslice]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:1375: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (4x)] Unable to compile 'fight_style.dungeonslice' - [string "return fight_style.dungeonslice"]:1: attempt to index global 'fight_style' (a nil value) (pcall-b)
+From: variable.xuen_condition & ! fight_style.dungeonslice & ! fight_style.dungeonroute | variable.xuen_dungeonslice_condition & fight_style.dungeonslice | variable.xuen_dungeonroute_condition & fight_style.dungeonroute
+<No message provided>
+
+[20:57:28 (2x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:4 : invoke_xuen_the_white_tiger ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:1375: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (4x)] Unable to compile 'fight_style.dungeonroute' - [string "return fight_style.dungeonroute"]:1: attempt to index global 'fight_style' (a nil value) (pcall-b)
+From: variable.xuen_condition & ! fight_style.dungeonslice & ! fight_style.dungeonroute | variable.xuen_dungeonslice_condition & fight_style.dungeonslice | variable.xuen_dungeonroute_condition & fight_style.dungeonroute
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:4 : invoke_xuen_the_white_tiger ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[-- Windwalker:cooldowns:4
+return safebool( safebool(variable.xuen_condition) and not (fight_style.dungeonslice) and not (fight_style.dungeonroute) or safebool(variable.xuen_dungeonslice_condition) and fight_style.dungeonslice or safebool(variable.xuen_dungeonroute_condition) and fight_style.dungeonroute )]:2: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1392: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (2x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:4 : invoke_xuen_the_white_tiger ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonslice]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1224: in function <Interface/AddOns/Hekili/Scripts.lua:1213>
+[Interface/AddOns/Hekili/Scripts.lua]:1398: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (2x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:4 : invoke_xuen_the_white_tiger ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1224: in function <Interface/AddOns/Hekili/Scripts.lua:1213>
+[Interface/AddOns/Hekili/Scripts.lua]:1398: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Error in Windwalker:cooldowns:4 conditions:
+<No message provided>
+
+[20:57:28 (2x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:5 : storm_earth_and_fire ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:1375: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (4x)] Unable to compile 'fight_style.dungeonroute' - [string "return fight_style.dungeonroute"]:1: attempt to index global 'fight_style' (a nil value) (pcall-b)
+From: variable.sef_condition & ! fight_style.dungeonroute | variable.sef_dungeonroute_condition & fight_style.dungeonroute
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:5 : storm_earth_and_fire ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[-- Windwalker:cooldowns:5
+return safebool( safebool(variable.sef_condition) and not (fight_style.dungeonroute) or safebool(variable.sef_dungeonroute_condition) and fight_style.dungeonroute )]:2: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1392: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (2x)] Unknown key 'fight_style' in emulated environment for [ Windwalker:cooldowns:5 : storm_earth_and_fire ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1224: in function <Interface/AddOns/Hekili/Scripts.lua:1213>
+[Interface/AddOns/Hekili/Scripts.lua]:1398: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Error in Windwalker:cooldowns:5 conditions:
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:1 : storm_earth_and_fire ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:1375: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:1 : storm_earth_and_fire ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[-- Windwalker (2):cooldowns:1
+return safebool( fight_style.dungeonroute and buff.invokers_delight.remains>15 and (active_enemies>2 or not (talent.ordered_elements.enabled) or safebool(cooldown.rising_sun_kick.remains)) )]:2: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1392: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:1 : storm_earth_and_fire ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1224: in function <Interface/AddOns/Hekili/Scripts.lua:1213>
+[Interface/AddOns/Hekili/Scripts.lua]:1398: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Error in Windwalker (2):cooldowns:1 conditions:
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:2 : tiger_palm ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:990: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:1375: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:2 : tiger_palm ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return (target.time_to_die>14 and not (fight_style.dungeonroute) or target.time_to_die>22)]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:1375: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:2 : tiger_palm ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[-- Windwalker (2):cooldowns:2
+return safebool( (target.time_to_die>14 and not (fight_style.dungeonroute) or target.time_to_die>22) and not (safebool(cooldown.invoke_xuen_the_white_tiger.remains)) and (chi.current<5 and not (talent.ordered_elements.enabled) or chi.current<3) and (combo_strike or not (talent.hit_combo.enabled)) )]:2: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1392: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:2 : tiger_palm ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1224: in function <Interface/AddOns/Hekili/Scripts.lua:1213>
+[Interface/AddOns/Hekili/Scripts.lua]:1398: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:2 : tiger_palm ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:990: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:768: in function 'BuildRecheck'
+[Interface/AddOns/Hekili/Scripts.lua]:1433: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Error in Windwalker (2):cooldowns:2 conditions:
+<No message provided>
+
+[20:57:28 (2x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:3 : invoke_xuen_the_white_tiger ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonslice]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:1375: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (2x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:3 : invoke_xuen_the_white_tiger ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:1375: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:3 : invoke_xuen_the_white_tiger ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[-- Windwalker (2):cooldowns:3
+return safebool( safebool(variable.xuen_condition) and not (fight_style.dungeonslice) and not (fight_style.dungeonroute) or safebool(variable.xuen_dungeonslice_condition) and fight_style.dungeonslice or safebool(variable.xuen_dungeonroute_condition) and fight_style.dungeonroute )]:2: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1392: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (2x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:3 : invoke_xuen_the_white_tiger ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonslice]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1224: in function <Interface/AddOns/Hekili/Scripts.lua:1213>
+[Interface/AddOns/Hekili/Scripts.lua]:1398: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (2x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:3 : invoke_xuen_the_white_tiger ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1224: in function <Interface/AddOns/Hekili/Scripts.lua:1213>
+[Interface/AddOns/Hekili/Scripts.lua]:1398: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Error in Windwalker (2):cooldowns:3 conditions:
+<No message provided>
+
+[20:57:28 (2x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:4 : storm_earth_and_fire ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1032: in function 'EmulateSyntax'
+[Interface/AddOns/Hekili/Scripts.lua]:1375: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:4 : storm_earth_and_fire ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[-- Windwalker (2):cooldowns:4
+return safebool( safebool(variable.sef_condition) and not (fight_style.dungeonroute) or safebool(variable.sef_dungeonroute_condition) and fight_style.dungeonroute )]:2: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1392: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (2x)] Unknown key 'fight_style' in emulated environment for [ Windwalker (2):cooldowns:4 : storm_earth_and_fire ].
+
+[Interface/AddOns/Hekili/State.lua]:2469: in function <Interface/AddOns/Hekili/State.lua:2037>
+[return fight_style.dungeonroute]:1: in main chunk
+[C]: in function 'pcall'
+[Interface/AddOns/Hekili/Scripts.lua]:1224: in function <Interface/AddOns/Hekili/Scripts.lua:1213>
+[Interface/AddOns/Hekili/Scripts.lua]:1398: in function <Interface/AddOns/Hekili/Scripts.lua:1365>
+[Interface/AddOns/Hekili/Scripts.lua]:1879: in function 'LoadScript'
+[Interface/AddOns/Hekili/Scripts.lua]:1723: in function 'LoadScripts'
+[Interface/AddOns/Hekili/Options/Options.lua]:7313: in function 'member'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:215: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:164>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1186: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1113>
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1642: in function 'FeedGroup'
+[Interface/AddOns/HandyNotes/Libs/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua]:1567: in function <...nfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua:1551>
+[C]: ?
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:66: in function <.../ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua:64>
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/AceGUI-3.0.lua]:300: in function 'Fire'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:342: in function 'SelectTab'
+[Interface/AddOns/ElvUI_Libraries/Core/Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua]:200: in function <...Ace3/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua:197>
+
+<No message provided>
+
+[20:57:28 (1x)] Error in Windwalker (2):cooldowns:4 conditions:
+<No message provided>
